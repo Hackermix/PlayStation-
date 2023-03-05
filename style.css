@@ -1,0 +1,45 @@
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ body {
+   background-color: #131313
+ }
+ 
+ nav {
+   width: 80%;
+   min-width: 600px;
+   height: 100vh;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin: auto;
+ }
+ 
+ nav a {
+   position: relative;
+   text-decoration: none;
+   font-size: 30px;
+   font-family: sans-serif
+   color: #00B7FF;"
+   
+ }
+ 
+ a::before{
+   content: '';
+   position: absolute;
+   left: 0;
+   height: 2px;
+   width: 100%;
+   background-color: #0FE0FF
+   bottom: -7px;
+ }
+ 
+ a:hover{
+   color: white;
+ }
+ 
+ a:hover: :before {
+   width: 100px;
+ }
